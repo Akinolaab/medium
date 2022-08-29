@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:wght@900&display=swap');
+body{
+    display: block;
+    margin-left: 0 ;
+    padding: 0;
+}
+.top{
+    display: block;
+    background-color: black;
+    
+    
+}
+.top img{
+    margin-right: 80%;
+    height: 50%;
+    justify-content: center;
+    padding-top: 1%;
+    padding-left: 3%;
+    
+}
+.account{
+    margin-left: 3%;
+}
+.top h3{
+    color: white;
+    padding-left: 50px;
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    flex: 1;
+    text-align: right;
+}
+.button{
+    border: 12px;
+    border-color: aqua;
+}
+h1{
+    margin-left: 3%;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1%;
+}
+.help{
+    margin-left: 3%;
+    font-family: 'sohne', sans-serif;
+    font-size: 16px;
+}
+
+.extra{
+    background-color: #000000;
+    height: 120px;
+    display: flex;
+    padding-left: 65%;
+    justify-content: center;
+    font-family: 'sohne', sans-serif;
+
+}
+
+
+.extra li{
+    padding-left: 10px;
+    display: inline;
+    font-family: 'sohne', sans-serif;
+    font-size: 14px;
+}
+a:link{
+text-decoration: none;
+}
+
+.extra ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+.help ul li a{
+    color: #000000;
+    
+}
+
+.account a{
+color: #000000;
+}
+.top a{
+    color: white;
+}
